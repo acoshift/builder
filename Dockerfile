@@ -1,8 +1,8 @@
 FROM launcher.gcr.io/google/debian9
 LABEL maintainer="Thanatat Tamtan <acoshift@gmail.com>"
 
-ENV GOLANG_VERSION 1.10.1
-ENV NODE_VERSION v8.11.1
+ENV GOLANG_VERSION 1.11
+ENV NODE_VERSION v8.11.4
 
 RUN apt-get update -y && \
     apt-get install --no-install-recommends -y -q \
